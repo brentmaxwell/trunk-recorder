@@ -51,6 +51,11 @@ Note - if you did not install GR in the standard spot, use the -DCMAKE_PREFIX_PA
 This should be as simple doing `./pybombs install gr-op25`. On OSX, it is quite a bit trickier. Right now the code is not patched for OSX installs. I will try to put together an easy way to do an OSX install in the future.
 
 ###Trunk Recorder
+
+**Dependencies**
+
+ - libncurses: `sudo apt-get install libncurses5-dev`
+
 Okay, with that out of the way, here is how you compile Trunk Recorder:
 ```
 git clone https://github.com/robotastic/trunk-recorder.git
